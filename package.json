@@ -1,0 +1,24 @@
+{
+  "name": "upwork-automation-suite",
+  "version": "0.1.0",
+  "description": "Gig discovery and proposal generation for Yogesh Mistry — read-only Playwright + Supabase + Claude Code agents",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "save-session": "node playwright/save-session.js",
+    "check-session": "node playwright/check-session.js",
+    "scrape": "node playwright/scraper.js",
+    "find-gigs": "claude agents/upwork-gig-finder.md",
+    "write-proposal": "claude agents/upwork-proposal-writer.md"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.44.0",
+    "playwright": "^1.44.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
