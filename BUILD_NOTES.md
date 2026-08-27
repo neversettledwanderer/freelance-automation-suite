@@ -63,7 +63,7 @@ Upwork and writes to Supabase only. The proposal writer reads KB files; it does 
 ## Project Structure
 
 ```
-/Users/yogeshmistry/IDE/GitHub/freelance-automation-suite/
+/Users/yogeshmistry/YM_Vault/Developer/Code/freelance-automation-suite/
 ├── CLAUDE.md                    # Project config and agent instructions
 ├── PRD.md                       # Product spec
 ├── BUILD_NOTES.md               # This file
